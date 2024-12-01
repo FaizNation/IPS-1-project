@@ -1,336 +1,89 @@
 xgallery_images = [
     {
-      url: "images/Gallery-1.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/1.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-2.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/2.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-3.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/3.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-4.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/4.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-5.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/5.jpg",
+      date: "#cewe gwv"
     },
     {
-      url: "images/Gallery-6.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/6.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-7.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/7.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-8.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/8.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-9.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/9.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-10.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/10.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-11.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/11.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-12.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/12.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-13.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/13.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-14.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/14.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-15.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/15.jpg",
+      date: "#cewe gwa"
     },
     {
-      url: "images/Gallery-16.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/16.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-17.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/17.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-18.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/18.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-19.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/19.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-20.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/20.jpg",
+      date: "#cewe gw"
     },
     {
-      url: "images/Gallery-21.jpg",
-      date: "#Smpn2Tarumajaya"
+      url: "Images/21.jpg",
+      date: "#cewe gw"
     },
-    {
-      url: "images/Gallery-22.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-23.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-24.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-25.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-26.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-27.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-28.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-29.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-30.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-31.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-32.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-33.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-34.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-35.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-36.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-37.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-38.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-39.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-40.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-41.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-42.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-43.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-44.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-45.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-46.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-47.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-48.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-49.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-50.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-51.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-52.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-53.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-54.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-55.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-56.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-57.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-58.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-59.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-60.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-61.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-62.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-63.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-64.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-65.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-66.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-67.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-68.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-69.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-70.jpg",
-      date: "#Smpn2Tarumajaya"
-},
-    {
-      url: "images/Gallery-71.jpg",
-      date: "#Smpn2Tarumajaya"
-},
-    {
-      url: "images/Gallery-72.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-73.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-74.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-75.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-76.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-77.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-78.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-79.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-80.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-81.jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-82,jpg",
-      date: "#Smpn2Tarumajaya"
-    },
-    {
-      url: "images/Gallery-83.jpg",
-      date: "#Smpn2Tarumajaya"
-          }
+    
 ];
   
   
