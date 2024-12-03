@@ -1,13 +1,17 @@
 document.querySelectorAll('.post').forEach((post, index) => {
     const likeBtn = post.querySelector('.like-btn');
     const likeCount = post.querySelector('.like-count');
+    const video = post.querySelector('video');
     const commentInput = post.querySelector('.comment-input');
     const commentBtn = post.querySelector('.comment-btn');
     const commentList = post.querySelector('.comment-list');
   
     const postKey = `post_${index}`;
   
-    // Load saved data
+    // Menyimpan referensi ke video yang sedang diputar
+    let currentlyPlayingVideo = null;
+  
+    // Load data from Local Storage on page load
     loadPostData();
   
     // Like button functionality
@@ -25,7 +29,23 @@ document.querySelectorAll('.post').forEach((post, index) => {
       savePostData();
     });
   
-    // Comment functionality
+    // Auto-pause ketika video lainnya diputar
+    video.addEventListener('play', () => {
+      if (currentlyPlayingVideo && currentlyPlayingVideo !== video) {
+        currentlyPlayingVideo.pause();
+      }
+      currentlyPlayingVideo = video;
+    });
+  
+    // Auto-play video berikutnya setelah selesai
+    video.addEventListener('ended', () => {
+      const nextPost = document.querySelector(`.post:nth-child(${index + 2}) video`);
+      if (nextPost) {
+        nextPost.play();
+      }
+    });
+  
+    // Add new comment
     commentBtn.addEventListener('click', addComment);
     commentInput.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') {
@@ -39,22 +59,22 @@ document.querySelectorAll('.post').forEach((post, index) => {
         const commentItem = document.createElement('li');
         commentItem.textContent = commentText;
         commentList.appendChild(commentItem);
-        commentInput.value = '';
         savePostData();
+        commentInput.value = '';
       }
     }
   
-    // Save likes and comments to Local Storage
+    // Save post data (likes & comments) to Local Storage
     function savePostData() {
       const postData = {
         likes: parseInt(likeCount.textContent),
         liked: likeBtn.classList.contains('liked'),
-        comments: Array.from(commentList.children).map(comment => comment.textContent)
+        comments: Array.from(commentList.children).map(comment => comment.textContent),
       };
       localStorage.setItem(postKey, JSON.stringify(postData));
     }
   
-    // Load likes and comments from Local Storage
+    // Load post data from Local Storage
     function loadPostData() {
       const postData = JSON.parse(localStorage.getItem(postKey));
       if (postData) {
