@@ -364,6 +364,11 @@
     font-size: 0.7em;
     background: red;
   }
+
+  .music-player {
+    display: none;
+  }
+  
   
   /* Estilos del la imagen*/
   .alta {
