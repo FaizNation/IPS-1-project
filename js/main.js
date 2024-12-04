@@ -83,6 +83,42 @@ xgallery_images = [
       url: "Images/21.jpg",
       date: "#cewe gw"
     },
+    {
+      url: "Images/30.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/22.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/23.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/24.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/25.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/26.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/27.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/28.jpg",
+      date: "#cewe gw"
+    },
+    {
+      url: "Images/29.jpg",
+      date: "#cewe gw"
+    },
     
 ];
   
