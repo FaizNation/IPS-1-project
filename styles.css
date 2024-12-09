@@ -447,12 +447,14 @@ select {
   }
 
   .alta img {
-    width: 90%;
-    /* Kurangi lebar sedikit di perangkat yang lebih kecil */
-    max-width: none;
-    /* Hilangkan batas maksimum untuk fleksibilitas */
-    transform: translateX(0);
-    /* Hapus efek translate jika tidak diperlukan */
+    .alta img {
+      width: 80%; /* Kurangi ukuran gambar agar tidak menutupi teks */
+      max-width: 300px; /* Tentukan ukuran maksimum untuk layar besar */
+      height: auto; /* Pertahankan proporsi gambar */
+      margin: 0 auto; /* Pusatkan gambar */
+      display: block; /* Pastikan gambar memanfaatkan ruang tengah */
+      transform: none; /* Hilangkan transform jika tidak diperlukan */
+    }    
   }
 }
 
