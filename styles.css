@@ -411,7 +411,7 @@
   }
   
   .alta img {
-    width: 355px;
+    width: 300px;
     height: auto;
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
@@ -440,7 +440,7 @@
     }
   
     .alta img {
-      width: 410px;
+      width: 400px;
       -webkit-transform: translateX(-15px);
       -ms-transform: translateX(-15px);
       transform: translateX(-15px);
@@ -458,7 +458,7 @@
     }
   
     .alta img {
-      width: 320px;
+      width: 300px;
     }
   }
   
