@@ -373,7 +373,7 @@
   /* Estilos del la imagen*/
   .alta {
     width: 100%;
-    max-width: 490px;
+    max-width: 200px;
     height: auto;
     overflow: hidden;
   
@@ -411,8 +411,8 @@
   }
   
   .alta img {
-    width: 300px;
-    height: auto;
+    width: 200px;
+    height: 200px;
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
     transform: translateY(10px);
@@ -440,7 +440,7 @@
     }
   
     .alta img {
-      width: 400px;
+      width: 300px;
       -webkit-transform: translateX(-15px);
       -ms-transform: translateX(-15px);
       transform: translateX(-15px);
